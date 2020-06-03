@@ -4,7 +4,7 @@ solution = 20
 
 
 def divisable(num):
-    for i in range(1, 20):
+    for i in range(1, 21):
         if num % i != 0:
             return False
     return True
